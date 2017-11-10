@@ -6,7 +6,7 @@ The package exposes the single function `ParametrizedUnitary`, which takes a sin
 A second optional argument can be used to have the output matrix use different symbols for parameters.
 
 ## Installation
-The simplest way to install this package is to evaluate the following (code adapted from the [MaTeX readme page](https://github.com/szhorvat/MaTeX)):
+The simplest way to install this package is through the provided paclet. This can be done evaluating the following code in any notebook (code adapted from the [MaTeX readme page](https://github.com/szhorvat/MaTeX)):
 
 ```Mathematica
 Module[{json, download, target},
@@ -24,6 +24,6 @@ Module[{json, download, target},
   If[FileExistsQ[target], PacletInstall[target], $Failed]
 ]
 ```
-After this, just evaluate ``Needs["JarlskogDecomposition`"]`` in a notebook to use it.
+After this, evaluate ``Needs["JarlskogDecomposition`"]`` in a notebook to use it.
 
-If you later want to uninstall the package, just run `PacletUninstall["JarlskogDecomposition"]`.
+If you later want to uninstall the package, run `PacletUninstall["JarlskogDecomposition"]` in any notebook.
