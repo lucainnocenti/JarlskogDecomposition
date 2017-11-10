@@ -5,6 +5,6 @@ Paclet[
   Description -> "Simple implementation of Jarlskog decomposition.",
   Creator -> "Luca Innocenti",
   Extensions -> {
-    {"Kernel", Root -> ".", Context -> "JarlskogDecomposition"}
+    {"Kernel", Root -> ".", Context -> "JarlskogDecomposition`"}
   }
 ]
